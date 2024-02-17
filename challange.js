@@ -32,8 +32,8 @@ function updateRemainingChars(event){
 
  } 
  else {
-   remainingCharsElement.classList.remove('warning');
-    productNameInputElement.classList.remove('warning');
+   remainingCharsElement.classList.remove('error');
+    productNameInputElement.classList.remove('error');
  }
 }
 
