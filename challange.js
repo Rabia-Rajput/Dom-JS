@@ -38,8 +38,8 @@ function updateRemainingChars(event){
 
  }
  else {
-   remainingCharsElement.classList.remove('error', 'warning');
-    productNameInputElement.classList.remove('error', 'warning');
+   remainingCharsElement.classList.remove( 'warning');
+    productNameInputElement.classList.remove( 'warning');
  }
 }
 
