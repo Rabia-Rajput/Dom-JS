@@ -33,6 +33,8 @@ function updateRemainingChars(event){
  } else if (remainingChar <= 10) {
    remainingCharsElement.classList.add('warning');
    productNameInputElement.classList.add('warning');
+   remainingCharsElement.classList.remove('error');
+    productNameInputElement.classList.remove('error');
 
  }
  else {
