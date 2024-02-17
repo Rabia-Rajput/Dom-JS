@@ -8,7 +8,7 @@ let isLoggedIn = true;
 if(!isLoggedIn){
     console.log('user is not logged in!');
 }
-const enteredUserName ='';//0 both consider false
+const enteredUserName ='Rabia';// empty string ( '' )and 0 both consider false
 if(enteredUserName.length > 0){
     console.log('input is valid');
 }
